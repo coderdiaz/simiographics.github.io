@@ -1,27 +1,23 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Salvador</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
+---
+layout: default
+---
 
-    <div id="miperfil">
-      <header>
-        <h1>Salvador Mendo</h1>
-        <p>Diseñador + Dev</p>
-        <img src="img/avatar.png" alt="Mi Foto">
+<div class="home">
 
-        <nav>
-          <ul>
-            <li><a href="">Acerca de Mi</a></li>
-            <li><a href="">Links</a></li>
-            <li><a href="">Contacto</a></li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+  <h1 class="page-heading">Posts</h1>
 
-  </body>
-</html>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
