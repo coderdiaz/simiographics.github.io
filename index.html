@@ -1,13 +1,27 @@
----
-layout: default
-title: Your New Jekyll Site
----
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Salvador</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-</div>
+    <div id="miperfil">
+      <header>
+        <h1>Salvador Mendo</h1>
+        <p>Diseñador + Dev</p>
+        <img src="img/avatar.png" alt="Mi Foto">
+
+        <nav>
+          <ul>
+            <li><a href="">Acerca de Mi</a></li>
+            <li><a href="">Links</a></li>
+            <li><a href="">Contacto</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+
+  </body>
+</html>

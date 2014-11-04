@@ -1,4 +1,0 @@
-simiographics.github.io
-=======================
-
-Blog
