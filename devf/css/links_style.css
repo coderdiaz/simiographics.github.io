@@ -1,0 +1,31 @@
+main .links-sociales {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+main .links-sociales li {
+  border-top: 1px solid #6095c7; 
+}
+
+main .links-sociales li:last-child a {
+  border-radius: 0 0 5px 5px;
+}
+
+main .links-sociales li a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+  transition: all .2s ease;
+}
+
+main .links-sociales li a:hover {
+  background-color: #5395d3;
+  padding-left: 30px;
+}
+
+main .links-sociales li a img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
