@@ -1,0 +1,40 @@
+
+* {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: #1CABF8;
+
+  &:hover {
+    text-decoration: none;
+    color: tint(#1CABF8, 20%);
+  }
+}
+
+// Header
+.main-header {
+  background: $white-color;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .07);
+
+  .nav {
+    a {
+      font-size: 13px;
+      color: #B6B6BB;
+      text-transform: uppercase;
+      font-family: $primary-font;
+    }
+  }
+}
+
+// Footer
+.main-footer {
+  background: $gray-color;
+  text-align: center;
+
+  .footer-year {
+    color: $light-gray-color;
+    font-family: $secondary-font;
+  }
+}

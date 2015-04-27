@@ -1,0 +1,19 @@
+.home-intro {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  @include transform(translateY(-60%));
+
+  h1 {
+    margin-bottom: 15px;
+  }
+}
+
+.home-nav {
+  margin-top: 30px;
+
+  a {
+    padding: 0 10px;
+  }
+}

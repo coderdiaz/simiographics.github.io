@@ -1,8 +1,21 @@
 ---
 ---
 
+// Fonts
+@import "http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300";
+@import "http://fonts.googleapis.com/css?family=Karla:400,700";
+
+// Common
+@import "common/vars";
+
+// Deps
 @import "../libs/bourbon/app/assets/stylesheets/bourbon";
 @import "bootstrap/assets/stylesheets/bootstrap";
 
+// Global
+@import "global/skeleton";
+@import "global/skin";
+
+// Home
 @import "home/skeleton";
 @import "home/skin";
