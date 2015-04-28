@@ -20,4 +20,6 @@ $(function () {
     if (e.keyCode == 27 && body.hasClass(openClass))
       $('.contact-close').trigger('click');
   });
+
+  new WOW().init();
 });

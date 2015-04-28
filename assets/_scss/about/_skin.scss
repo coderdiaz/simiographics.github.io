@@ -1,0 +1,31 @@
+.about {
+
+  .about-title {
+    h5 {
+      font: {
+        family: $primary-font;
+        size: 18px;
+      }
+      color: #87868F;
+    }
+
+    h1 {
+      font: {
+        family: $primary-font;
+        size: 32px;
+        color: $gray-color;
+      }
+    }
+  }
+
+  .about-content {
+    p {
+      font: {
+        family: $secondary-font;
+        size: 15px;
+        weight: 300;
+      }
+      line-height: 28px;
+    }
+  }
+}
