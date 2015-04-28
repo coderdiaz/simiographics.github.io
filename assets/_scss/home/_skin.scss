@@ -2,6 +2,7 @@
 // Home
 .home-page {
   background: $white-color;
+  background: #FDFDFA;
   text-align: center;
 }
 
@@ -15,6 +16,7 @@
 
 .home-nav {
   a {
+    letter-spacing: 1px;
     font-family: $primary-font;
     text-transform: uppercase;
     font-size: 13px;

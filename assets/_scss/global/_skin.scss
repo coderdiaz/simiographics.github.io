@@ -6,11 +6,13 @@
 }
 
 a {
-  color: #1CABF8;
+  color: #84847F;
+  @include transition(all .2s ease);
 
   &:hover {
     text-decoration: none;
-    color: tint(#1CABF8, 20%);
+    color: #84847F;
+    box-shadow: 0 2px 0 rgba(177, 238, 209, .4)
   }
 }
 
@@ -38,6 +40,7 @@ a {
 
   .nav {
     a {
+      letter-spacing: 1px;
       font-size: 13px;
       color: #B6B6BB;
       text-transform: uppercase;
