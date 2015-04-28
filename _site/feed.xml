@@ -5,9 +5,64 @@
     <description>Hi</description>
     <link>http://salmendo.com/</link>
     <atom:link href="http://salmendo.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 27 Apr 2015 19:38:47 -0500</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2015 19:38:47 -0500</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2015 19:48:52 -0500</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2015 19:48:52 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Cúrsame</title>
+        <description>&lt;p&gt;Cúrsame is an up and coming educational platform for schools. I worked with the team for about one year and was in charge of completely rethinking the whole platform´s user experience and design, as well as executing a huge Ruby on Rails integration replacing the old design.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 26 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://salmendo.com/2015/04/26/cursame.html</link>
+        <guid isPermaLink="true">http://salmendo.com/2015/04/26/cursame.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SomosFut</title>
+        <description>&lt;p&gt;SomosFut is a soccer platform the enables field administrators and amateur soccer players to interact based on games, teams, and scores. I started from scratch designing all aspects of aesthetics and user experience, later chopping it into html and css.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 25 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://salmendo.com/2015/04/25/somosfut.html</link>
+        <guid isPermaLink="true">http://salmendo.com/2015/04/25/somosfut.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Intrinno</title>
+        <description>&lt;p&gt;Joining the team at Intrinno, an open innovation platform for companies, I was tasked with improving the overall design and user experience of their current platform; after that I took care of the code and pushed it into their Angular.js based app.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 24 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://salmendo.com/2015/04/24/intrinno.html</link>
+        <guid isPermaLink="true">http://salmendo.com/2015/04/24/intrinno.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Kueski</title>
+        <description>&lt;p&gt;Before becoming México´s leading online lender, I was there helping Kueski´s two cofounders to design the inital beta pages and arrive at the first platform, later taking it into a second interation loop improving the design and user experience, all while coding it into their Sinatra app.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 23 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://salmendo.com/2015/04/23/kueski.html</link>
+        <guid isPermaLink="true">http://salmendo.com/2015/04/23/kueski.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Prestadero</title>
+        <description>&lt;p&gt;When Prestadero, a peer-to-peer lending site, was looking for someone to retouch their platform, the founder contacted me and I continued on to completly rethink the overall user experience and design, following up with html and css implementation.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 22 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://salmendo.com/2015/04/22/prestadero.html</link>
+        <guid isPermaLink="true">http://salmendo.com/2015/04/22/prestadero.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Reviews.co.uk</title>
