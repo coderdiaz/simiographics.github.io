@@ -6,7 +6,7 @@ url: "http://salmendo.com"
 
 markdown: kramdown
 
-exclude: [Gemfile, Gemfile.lock, scss, assets/scss, assets/libs]
+exclude: [Gemfile, Gemfile.lock, scss, assets/libs]
 
 assets:
   css: assets/css/
@@ -15,5 +15,5 @@ assets:
   js: assets/js/
 
 sass:
-  sass_dir: assets/scss
+  sass_dir: assets/_scss
   style: :compressed

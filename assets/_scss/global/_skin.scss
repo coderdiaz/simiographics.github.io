@@ -18,6 +18,14 @@ a {
   background: $white-color;
   box-shadow: 0 1px 1px rgba(0, 0, 0, .07);
 
+  .bread-crumb {
+    font: {
+      size: 15px;
+      family: $primary-font;
+    }
+    color: #CACACA;
+  }
+
   .nav {
     a {
       font-size: 13px;

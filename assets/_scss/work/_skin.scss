@@ -1,0 +1,44 @@
+.project {
+
+  .project-presentation {
+    text-align: center;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .05);
+    @include linear-gradient(20deg, #FAFAFA 0%, #E2E8EC 50%, #D6DEE3 100%);
+
+    &:after {
+      content: '';
+      @include linear-gradient(rgba(255, 255, 255, 0), $white-color);
+    }
+  }
+
+  .project-main {
+    text-align: center;
+  }
+
+  .project-title {
+    font: {
+      size: 32px;
+      family: $primary-font;
+    }
+    color: $gray-color;
+  }
+
+  .project-services {
+    text-transform: uppercase;
+    font: {
+      size: 13px;
+      family: $primary-font;
+    }
+    color: #84838A;
+  }
+
+  .project-description {
+    font: {
+      size: 15px;
+      family: $secondary-font;
+      weight: 300;
+    }
+    color: #848389;
+    line-height: 24px;
+  }
+}

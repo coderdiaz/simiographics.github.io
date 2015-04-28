@@ -5,9 +5,42 @@
     <description>Hi</description>
     <link>http://salmendo.com/</link>
     <atom:link href="http://salmendo.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 27 Apr 2015 18:32:27 -0500</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2015 18:32:27 -0500</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2015 19:21:01 -0500</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2015 19:21:01 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Reviews.co.uk</title>
+        <description>&lt;p&gt;Reviews.co.uk is an online reviews site, now boasting thousands of them; back in the day, I helped them with the execution of a completely new user experience and design platform.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 21 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://salmendo.com/2015/04/21/reviews-co-uk.html</link>
+        <guid isPermaLink="true">http://salmendo.com/2015/04/21/reviews-co-uk.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Boxtuffs</title>
+        <description>&lt;p&gt;This little box was a personal project that I started in my free time about designing little ui elements, then coding and uploading them for people to see/download, back when html5 and css3 was starting to hit the web.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 20 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://salmendo.com/2015/04/20/boxtuffs.html</link>
+        <guid isPermaLink="true">http://salmendo.com/2015/04/20/boxtuffs.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>SendRead</title>
+        <description>&lt;p&gt;SendRead was a side project I was doing with a few of my friends that let you save links to your account so they could be read later; I was in charge of the user experience and design aspect of the app.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 19 Apr 2015 00:00:00 -0500</pubDate>
+        <link>http://salmendo.com/2015/04/19/send-read.html</link>
+        <guid isPermaLink="true">http://salmendo.com/2015/04/19/send-read.html</guid>
+        
+        
+      </item>
     
   </channel>
 </rss>

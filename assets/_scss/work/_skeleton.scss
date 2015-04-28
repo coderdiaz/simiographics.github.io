@@ -1,0 +1,52 @@
+
+.projects-list {
+
+}
+
+.project {
+  .project-presentation {
+    padding: 40px;
+    width: 100%;
+    position: relative;
+
+    &:after {
+      display: block;
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .presentation-inner {
+      position: relative;
+      z-index: 1;
+    }
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  .project-main {
+    padding: {
+      bottom: 90px;
+      top: 20px;
+    }
+  }
+
+  .project-title {
+    margin: 0;
+  }
+
+  .project-services {
+    margin: {
+      top: 5px;
+      bottom: 10px;
+    }
+
+    span {
+      padding: 0px 2px;
+    }
+  }
+}
