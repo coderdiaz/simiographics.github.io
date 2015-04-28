@@ -7,7 +7,7 @@
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{site.description}}{% endif %}" />
   <meta property="og:title" content="{% if page.title %}{{ page.title }} ― {{ site.title }}{% else %}{{ site.title }} ― {{ site.slogan }}{% endif %}" />
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
-  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.assets.img }}{% else %}{{ site.image | prepend: site.assets.img }}{% endif %}" />
+  <meta property="og:image" content="{{ site.baseurl | prepend: site.url }}/{% if page.image %}{{ page.image | prepend: site.assets.img }}{% else %}{{ site.image | prepend: site.assets.img }}{% endif %}" />
   <link rel="stylesheet" href="{{ 'main.css' | prepend: site.assets.css }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   {% include favicons.html %}
