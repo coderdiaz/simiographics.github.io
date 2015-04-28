@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mendo</title>
-    <description>Site description</description>
+    <description>Mendo is the online portfolio of UI/UX Designer &amp; Frontend Developer Salvador López Mendoza.</description>
     <link>http://salmendo.com/</link>
     <atom:link href="http://salmendo.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 27 Apr 2015 23:40:17 -0500</pubDate>
-    <lastBuildDate>Mon, 27 Apr 2015 23:40:17 -0500</lastBuildDate>
+    <pubDate>Mon, 27 Apr 2015 23:47:19 -0500</pubDate>
+    <lastBuildDate>Mon, 27 Apr 2015 23:47:19 -0500</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
