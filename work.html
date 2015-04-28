@@ -3,6 +3,7 @@ layout: default
 title: Work
 body_class: work-page
 permalink: /work/
+description: Work portfolio
 ---
 
 <div class="work-projects">
@@ -10,7 +11,7 @@ permalink: /work/
     <div class="project">
       <div class="project-presentation">
         <div class="presentation-inner">
-          <img src="{{ project.image | prepend: site.assets.img }}" alt="{{ project.title }}">
+          <img src="{{ project.image | prepend: 'work/' | prepend: site.assets.img }}" alt="{{ project.title }}">
         </div>
       </div>
       <div class="project-main">

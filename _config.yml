@@ -1,20 +1,17 @@
 title: Mendo
 slogan: A Swiss army knife for design and code in the digital universe.
-email: your-email@domain.com
-description: Hi
+description: Salvador López Mendoza is a UI/UX Designer + Frontend Developer freelancer.
+image: og/mendo-og.png
+email: simiographics@gmail.com
 baseurl: ""
 url: "http://salmendo.com"
-
 markdown: kramdown
-
 exclude: [Gemfile, Gemfile.lock, scss, assets/libs]
-
 assets:
   css: assets/css/
   svg: assets/svg/
   img: assets/img/
   js: assets/js/
-
 sass:
   sass_dir: assets/_scss
   style: :compressed
