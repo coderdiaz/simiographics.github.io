@@ -1,7 +1,10 @@
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{{page.body_class}}">
-    {{ content }}
+  <body class="home-page">
+    <div id="main-container">
+      {{ content }}
+    </div>
+    {% include contact.html %}
   </body>
 </html>

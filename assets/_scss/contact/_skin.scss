@@ -1,0 +1,35 @@
+.contact {
+  text-align: center;
+  @include linear-gradient(20deg, rgba(48, 47, 56, .8) 0%, rgba(58, 57, 66, .1) 100%);
+
+  .contact-close {
+    font-size: 18px;
+    color: $white-color;
+    cursor: pointer;
+    opacity: .4;
+
+    &:hover {
+      opacity: .8;
+    }
+  }
+
+  h4 {
+    text-transform: uppercase;
+    color: $white-color;
+    opacity: .4;
+    font: {
+      size: 15px;
+      family: $primary-font;
+    }
+  }
+
+  .contact-links {
+    a {
+      font: {
+        size: 22px;
+        family: $secondary-font;
+        weight: 300;
+      }
+    }
+  }
+}

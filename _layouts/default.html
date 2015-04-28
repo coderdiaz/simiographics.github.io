@@ -2,10 +2,13 @@
 <html>
   {% include head.html %}
   <body class="{{page.body_class}} head-fixed">
-    {% include header.html %}
-      <main>
-        {{ content }}
-      </main>
-    {% include footer.html %}
+    <div id="main-container">
+      {% include header.html %}
+        <main>
+          {{ content }}
+        </main>
+      {% include footer.html %}
+    </div>
+    {% include contact.html %}
   </body>
 </html>

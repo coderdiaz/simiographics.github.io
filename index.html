@@ -1,19 +1,17 @@
 ---
 layout: home
-body_class: home-page
-title: Mendo - A Swiss army knife for design and code in the digital universe.
 permalink: /
 ---
 <div class="home-intro">
   <h1>
     <a href="{{ site.baseurl }}" title="Mendo">
-      <img src="assets/svg/mendo-logo-white.svg" alt="Mendo">
+      <img src="assets/svg/mendo-logo-black-main.svg" alt="Mendo">
     </a>
   </h1>
-  <p>A Swiss army knife for design and code in the digital universe.</p>
+  <p>{{ site.slogan }}</p>
   <div class="home-nav">
-    <a href="{{ 'work' | prepend: site.baseurl }}">Work</a>
-    <a href="{{ 'about' | prepend: site.baseurl }}">About</a>
-    <a href="">Contact</a>
+    <a href="{{ 'work' | prepend: site.baseurl }}" title="Work">Work</a>
+    <a href="{{ 'about' | prepend: site.baseurl }}" title="About">About</a>
+    <a href="#" title="Contact" class="contact-link">Contact</a>
   </div>
 </div>
