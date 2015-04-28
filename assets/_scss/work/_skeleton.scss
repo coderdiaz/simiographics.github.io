@@ -49,4 +49,22 @@
       padding: 0px 2px;
     }
   }
+
+  @include max-screen($screen-sm-min) {
+    .project-presentation {
+      padding: {
+        top: 20px;
+        left: 10px;
+        right: 10px;
+        bottom: 10px;
+      }
+    }
+
+    .project-main {
+      padding: {
+        top: 10px;
+        bottom: 30px;
+      }
+    }
+  }
 }

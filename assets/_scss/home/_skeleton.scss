@@ -3,6 +3,7 @@
   top: 50%;
   left: 0;
   width: 100%;
+  padding: 0px 30px;
   @include transform(translateY(-60%));
 
   h1 {
