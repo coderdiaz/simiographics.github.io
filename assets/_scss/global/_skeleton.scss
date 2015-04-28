@@ -4,6 +4,10 @@ html, body {
   min-height: 100%;
 }
 
+p + p {
+  margin-top: 35px;
+}
+
 // Header
 .main-header {
   padding: 35px 0;

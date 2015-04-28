@@ -16,6 +16,15 @@ a {
   }
 }
 
+p {
+  font: {
+    family: $secondary-font;
+    size: 15px;
+    weight: 300;
+  }
+  line-height: 28px;
+}
+
 .contact-open {
   #main-container {
     @include filter(blur(10px));
